@@ -312,8 +312,57 @@ section .button button:hover{
 }
 
 /* Footer CSS */
-
-
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+footer{
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  background: #0E2431;
+  color: white;
+}
+.center{
+  font-size: 1.4375rem;
+  background: white;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.center:hover{
+  background: #f12020;
+}
+.center{
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.center{
+  margin: 15px 0;
+}
+.bottom center{
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
+}
+.bottom center span{
+  color: #656565;
+}
+.bottom center a{
+  color: orange;
+  text-decoration: none;
+}
+.bottom center a:hover{
+  text-decoration: underline;
+}
+@media screen and (max-width: 900px) {
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+}
 
 /* Scroll TO Top Button CSS */
 .scroll-button a{
